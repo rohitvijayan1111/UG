@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<style>
+#login-form{
+font-size:20px;
+line-height:60px;
+margin-top:0px;
+}
+#submit_btn{
+}
+form {
+ margin: 0;
+
+ border: 3px solid black;
+}
+imageHeading{
+text-align:center;
+font-size:48px;
+}
+
+#table-heading{
+font-size:48px;
+text-align:center;
+}
+#courseHeading{
+font-size:30px;
+text-align:center;
+}
+
+courseTable,td,tr{
+border:1px solid;
+padding-top:10px;
+padding-right:160px;
+font-size:24px;
+}
+
+th{
+border:1px solid;
+padding-top:10px;
+text-align:center;
+font-size:24px;
+}
+#courseList{
+text-align:center;
+display: inline-block;
+font-size:24px;
+}
+#imageHeading{
+text-align:center;
+margin-top:50px;
+}
+frameHeading{
+font-size:48px;
+text-align:center;
+}
+#frameImage1{
+height:500px;width:400px;
+margin-left:300px;
+}
+#frameImage2{
+height:500px;width:400px;
+margin-right:300px;
+}
+
+</style>
+<body>
+<div style="background-color:#FAEBD7;text-align:center;margin-top:0px;margin-left:0px;">
+<h1 id="table-heading">TABLES AND LISTS</h1>
+<center>
+<table id="courseTable" style="border-collapse:collapse;text-align:left;">
+<tr>
+<th>Roll No</th>
+<th>Name</th>
+<th>Course</th>
+<th>Department</th>
+</center>	
+</tr>
+
+<tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS
+</tr>
+
+<tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS
+</tr>
+
+<tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS
+</tr>
+
+<tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS
+</tr>
+
+<tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS
+</tr>
+
+<tr>
+<tr>
+<td>101</td>
+<td>ABCD</td>
+<td>Computer</td>
+<td>CS
+</tr>
+</table>
+<h2 id="courseHeading">No Of Courses Available</h2>
+<ul id="courseList">
+<li>Computer science</li>
+<li>Electronics</li>
+<li>Aeronautics</li>
+<li>Mechanical</li>
+<li>Artificial Intelligence</li>
+</ul>
+</div>
+
+
+
+<div style="background-color:#FAEBD7;text-align:center;">
+<h1 id="imageHeading">Image Map</h1>
+<img usemap="#workmap" src="https://cdn.signavio.com/uploads/2018/09/blog-organizing-information-with-form-groups-in-workflow-accelerator-.jpg">
+<map name="workmap">
+  <area shape="rect" coords="811,0,1198,191" alt="Computer" href="frames.html">
+  <area shape="rect" coords="77,315,267,479" alt="table&list" href="handson-6.html">
+  <area shape="rect" coords="829,287,1199,477"  alt="form" href="Tables_and_lists.html">
+</map>
+</div>
+
+<div style="text-align:center;margin-top:0px;top:0px;background-color:#FAEBD7;height:600px;">
+<h3>FORM AND FORM ELEMENTS<h3>
+<form id="login-form">
+<label id="fname">Name:</label>
+<input id="fname" type="text" name="fname">
+<br>
+<label id="pass">Password:</label>
+<input id="pass" type="text" name="fname">
+<br>
+<label id="email">Email:</label>
+<input id="email" type="text" name="fname">
+<br>
+<label id="course">Courses:</label>
+<select name="course" id="courses" style="width:120px">
+	<option value="Computer">Computer</option>
+	<option value="Electronics">Electronics</option>
+	<option value="Aeronautics">Aeronautics</option>
+	<option value="Mechanical">Mechanical</option>
+	<option value="Artificial Intelligence">Artificial Intelligence</option>
+
+</select>
+<br>
+<label id="address">Address:</label>
+<textarea id="address" style="width:300px;height:100px"></textarea>
+<br>
+<label id="countries">Country:</label>
+<input id="countries" type="text" name="countries">
+<br>
+<button id="submit_btn">SUBMIT</button>
+</div>
+
+<div style="background-color:#FAEBD7;text-align:center;height:600px">
+<h1 id="frameHeading">FRAMES IN HTML</h1>
+<iframe id="frameImage1"src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80" frame border="0" width="45%" height="500px" align="left">
+ </iframe>
+<iframe id="frameImage2" src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80" frame border="0" width="45%" height="500px" align="right">
+</iframe>
+</div>
+</body>
+</html>	
